@@ -28,7 +28,10 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Talent Global</a>
+    <a class="navbar-brand" href="#">
+      <img src="/images/agency talent global logo.png" width="50px" height="50px" alt="">
+      Talent Global 
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,7 +42,7 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
+          <a class="nav-link" href="#separator-about">Nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Servicios</a>
@@ -47,6 +50,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Trabajos</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Noticias</a>
+          </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -58,9 +64,31 @@
             <a class="dropdown-item" href="#">Actores</a>
             <a class="dropdown-item" href="#">Personal de apoyo</a>
           </div>
+          <li class="navbar-nav flex-row ml-md-auto  d-md-none">
+              <a class="nav-link fas fa-envelope fa-2x " href="#"></a>
+            </li>
+          <li class="navbar-nav flex-row ml-md-auto  d-md-none">
+              <a class="nav-link fas fa-phone-square-alt fa-2x " href="#"></a>
+            </li>
+            <ul class="navbar-nav flex-row ml-md-auto  d-md-none">
+                <li class="nav-link">
+                  <a href="#" class="fab fa-facebook fa-2x nav-link"></a>
+                </li>
+              </ul>
+
         </li>
+        
       </ul>
+      
     </div>
+    <li class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <a class="nav-link fas fa-envelope fa-2x " href="#"></a>
+      </li>
+
+    <li class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <a class="nav-link fas fa-phone-square-alt fa-2x " href="#"></a>
+      </li>
+
     <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
       <li class="nav-item">
         <a href="#" class="fab fa-facebook fa-2x nav-link"></a>
@@ -75,10 +103,10 @@
           <div class="row d-flex h-100">
             <div class="col-sm-6 text-center justify-content-center align-self-center">
               <h1>
-                this is the title or a phrase related to the product
+                <strong>Talent Global Agency</strong> 
               </h1>
               <p>Elit reiciendis aspernatur obcaecati accusantium corporis? Mollitia eius ratione excepturi.</p>
-              <a href="#" class="btn btn-outline-dark btn-lg text-white">
+              <a href="#separator-about" class="btn btn-outline-dark btn-lg text-white">
                 Lee Mas
               </a>
             </div>
@@ -89,5 +117,30 @@
         </div>
       </div>
     </header>
+
+    <!-- Separator -->
+
+    <section id="separator-about">
+      <div class="container">
+          <div class="row d-flex h-50">
+              <div class="col text-center">
+                <h1>
+                  <strong>Talent Global Agency</strong> 
+                </h1>
+                <p>Elit reiciendis aspernatur obcaecati accusantium corporis? Mollitia eius ratione excepturi.</p>
+              </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+      <section>
+      <div class="container-fluid ">
+        <div class="row" style="height: 566px">
+          <div class="col-sm-6 bg-success"></div>
+          <div class="col-sm-6 bg-primary"></div>
+        </div>
+      </div>
+    </section>
 
 </html>

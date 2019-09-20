@@ -3,7 +3,7 @@
     background: url(../images/drew-graham-PVyhz0wmHdo-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 593px;
+    min-height: 581px;
   }
   
   .background-overlay {
@@ -13,4 +13,9 @@
     left: 0;
     width: 100%;
     height: 100%;
+  }
+
+  .container-full {
+    margin: 0 auto;
+    width: 100%;
   }
