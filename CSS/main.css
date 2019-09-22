@@ -1,6 +1,6 @@
 .main-header {
     position: relative;
-    background: url(../images/drew-graham-PVyhz0wmHdo-unsplash.jpg);
+    background: url(../images/dancer.jpg);
     background-size: cover;
     background-position: center;
     min-height: 581px;
@@ -19,3 +19,40 @@
     margin: 0 auto;
     width: 100%;
   }
+
+  .section1-half-color {
+    background-color: #3B3B98;
+  }
+  .section1-half-image {
+    background-image: url(https://images.unsplash.com/photo-1549761505-ce78ee8354d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: 100% 90%;
+  }
+
+  .section2-half-color {
+    background-color:#901E3D;
+  }
+  
+  .section2-half-image {
+    background-image: url(https://images.unsplash.com/photo-1512348685137-98ad6f766061?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: 100% 35%;
+  }
+
+  .section-objetivos1 {
+    /* background-image: url(https://images.unsplash.com/photo-1495131796982-281014f71fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1476&q=80); */
+
+    background-color: #D6A2E8;
+  }
+  .section-objetivos2 {
+    /* background-image: url(https://images.unsplash.com/photo-1495131796982-281014f71fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1476&q=80); */
+
+    background-color: #B33771;
+  }
+  .section-objetivos3 {
+    /* background-image: url(https://images.unsplash.com/photo-1495131796982-281014f71fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1476&q=80); */
+
+    background-color: #6D214F;
+  }
+  
+
